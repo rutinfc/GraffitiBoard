@@ -9,6 +9,9 @@ target 'GraffitiBoard' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'GoogleSignIn'
+  pod 'AFNetworking'
+  pod 'NXDrawKit'
+  pod 'RSKImageCropper'
   
   target 'GraffitiBoardTests' do
     inherit! :search_paths
@@ -16,6 +19,9 @@ target 'GraffitiBoard' do
     pod 'Firebase/Core'
     pod 'Firebase/Auth'
     pod 'GoogleSignIn'
+    pod 'AFNetworking'
+    pod 'NXDrawKit'
+    pod 'RSKImageCropper'
   end
 
 end

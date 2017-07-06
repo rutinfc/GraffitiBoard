@@ -13,29 +13,25 @@ class GBMainViewController: UIViewController {
     @IBOutlet weak var message: UILabel!
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
-        
-        if FBInterface.shared.auth.isLogin() == false {
-            self.performSegue(withIdentifier: "Login", sender: nil)
-        }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        
         super.viewWillAppear(animated)
         
-        guard let userName = FBInterface.shared.auth.userName else {
-            return
+        if FBInterface.shared.auth.isLogin() == false {
+            self.performSegue(withIdentifier: "Login", sender: nil)
         }
-        
-        self.message.text = "Welcom \(userName) "
     }
-    
 
 }

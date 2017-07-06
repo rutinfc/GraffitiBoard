@@ -27,14 +27,6 @@ extension Notification.Name {
 
 class FBAuthfication : NSObject, GIDSignInDelegate, GIDSignInUIDelegate {
     
-    var userName : String? {
-        
-        get {
-            let user = Firebase.Auth.auth().currentUser
-            return user?.email
-        }
-    }
-    
     func load() {
         
         GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
@@ -50,6 +42,15 @@ class FBAuthfication : NSObject, GIDSignInDelegate, GIDSignInUIDelegate {
         }
         
         return false
+    }
+    
+    func currentProfileInfo() -> GBProfileInfo? {
+        
+        guard let user = Firebase.Auth.auth().currentUser else {
+            return nil
+        }
+        
+        return FBUserInfo(user: user)
     }
     
     func handURL(url:URL, options:[UIApplicationOpenURLOptionsKey : Any]) -> Bool {
@@ -82,5 +83,60 @@ class FBAuthfication : NSObject, GIDSignInDelegate, GIDSignInUIDelegate {
         user.link(with: credential, completion: { (user, error) in
             NotificationCenter.default.post(name: Notification.Name.didChangeAuthStatus, object: user?.email)
         })
+    }
+    
+    func logout(complete:@escaping (_ finish:Bool)->Void) {
+        
+        guard let user = Firebase.Auth.auth().currentUser else {
+            complete(false)
+            return
+        }
+        
+        do {
+            try Firebase.Auth.auth().signOut()
+        } catch {
+            complete(false)
+            return
+        }
+        
+        guard let povider = user.providerData.first else {
+            complete(false)
+            return
+        }
+        
+        Firebase.Auth.auth().currentUser?.unlink(fromProvider: povider.providerID, completion: { (user, error) in
+            
+            if error != nil {
+                complete(false)
+                return
+            }
+            complete(true)
+        })
+    }
+}
+
+class FBUserInfo : NSObject, GBProfileInfo {
+    
+    fileprivate let user : Firebase.User
+    
+    fileprivate init(user:Firebase.User) {
+        self.user = user
+        super.init()
+    }
+    
+    var name : String? {
+        get { return self.user.displayName }
+    }
+    
+    var email : String? {
+        get {
+            return self.user.email
+        }
+    }
+    
+    var profileURL : URL? {
+        get {
+            return self.user.photoURL
+        }
     }
 }

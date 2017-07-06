@@ -8,15 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1C78D4791F0CC243008293C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78D4781F0CC243008293C0 /* AppDelegate.swift */; };
-		1C78D47B1F0CC243008293C0 /* CBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78D47A1F0CC243008293C0 /* CBLoginViewController.swift */; };
 		1C78D47E1F0CC243008293C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C78D47C1F0CC243008293C0 /* Main.storyboard */; };
 		1C78D4811F0CC243008293C0 /* GraffitiBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C78D47F1F0CC243008293C0 /* GraffitiBoard.xcdatamodeld */; };
 		1C78D4831F0CC243008293C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C78D4821F0CC243008293C0 /* Assets.xcassets */; };
 		1C78D4861F0CC243008293C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C78D4841F0CC243008293C0 /* LaunchScreen.storyboard */; };
 		1C78D4911F0CC243008293C0 /* GraffitiBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78D4901F0CC243008293C0 /* GraffitiBoardTests.swift */; };
 		1C78D49C1F0CC272008293C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C78D49B1F0CC272008293C0 /* GoogleService-Info.plist */; };
-		1C78D49E1F0CC51D008293C0 /* FBInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78D49D1F0CC51D008293C0 /* FBInterface.swift */; };
-		1C78D4A01F0CE0DD008293C0 /* GBMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78D49F1F0CE0DD008293C0 /* GBMainViewController.swift */; };
+		1C78D4B11F0E2B6B008293C0 /* FBInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78D4AA1F0E2B6B008293C0 /* FBInterface.swift */; };
+		1C78D4B21F0E2B6B008293C0 /* GBNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78D4AB1F0E2B6B008293C0 /* GBNavigation.swift */; };
+		1C78D4B31F0E2B6B008293C0 /* GBUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78D4AC1F0E2B6B008293C0 /* GBUtils.swift */; };
+		1C78D4B41F0E2B6B008293C0 /* GBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78D4AE1F0E2B6B008293C0 /* GBLoginViewController.swift */; };
+		1C78D4B51F0E2B6B008293C0 /* GBMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78D4AF1F0E2B6B008293C0 /* GBMainViewController.swift */; };
+		1C78D4B61F0E2B6B008293C0 /* GBSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78D4B01F0E2B6B008293C0 /* GBSettingViewController.swift */; };
+		1C78D4B81F0E2BF6008293C0 /* GBProfileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78D4B71F0E2BF6008293C0 /* GBProfileInfo.swift */; };
+		1CD2D2AD1F0F3F4800A8760E /* GBDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD2D2AC1F0F3F4800A8760E /* GBDrawingViewController.swift */; };
+		1CD2D2AF1F0F54F400A8760E /* GBTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD2D2AE1F0F54F400A8760E /* GBTestViewController.swift */; };
+		1CEB53D51F1CB0E5003F9CE5 /* GBPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEB53D41F1CB0E5003F9CE5 /* GBPaletteView.swift */; };
+		1CEB53D71F1CB107003F9CE5 /* GBPaletteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CEB53D61F1CB107003F9CE5 /* GBPaletteView.xib */; };
+		1CEB53DA1F1DC385003F9CE5 /* GBPaletteColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEB53D81F1DC385003F9CE5 /* GBPaletteColorCell.swift */; };
+		1CEB53DB1F1DC385003F9CE5 /* GBPaletteColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CEB53D91F1DC385003F9CE5 /* GBPaletteColorCell.xib */; };
+		1CEB53DE1F1DE67C003F9CE5 /* GBPaletteThicknessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEB53DC1F1DE67C003F9CE5 /* GBPaletteThicknessCell.swift */; };
+		1CEB53DF1F1DE67C003F9CE5 /* GBPaletteThicknessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CEB53DD1F1DE67C003F9CE5 /* GBPaletteThicknessCell.xib */; };
+		1CEB53E11F1E09C6003F9CE5 /* GBPaletteThickFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEB53E01F1E09C6003F9CE5 /* GBPaletteThickFlowLayout.swift */; };
 		725F11D8BE9E909C64D6731B /* Pods_GraffitiBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE48F03CD85328B74B765343 /* Pods_GraffitiBoard.framework */; };
 		ED743A788D24A6FF1A3B7BF0 /* Pods_GraffitiBoardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647809D23BF89856F0B3D433 /* Pods_GraffitiBoardTests.framework */; };
 /* End PBXBuildFile section */
@@ -34,7 +47,6 @@
 /* Begin PBXFileReference section */
 		1C78D4751F0CC243008293C0 /* GraffitiBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraffitiBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C78D4781F0CC243008293C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C78D47A1F0CC243008293C0 /* CBLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBLoginViewController.swift; sourceTree = "<group>"; };
 		1C78D47D1F0CC243008293C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C78D4801F0CC243008293C0 /* GraffitiBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GraffitiBoard.xcdatamodel; sourceTree = "<group>"; };
 		1C78D4821F0CC243008293C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,8 +56,22 @@
 		1C78D4901F0CC243008293C0 /* GraffitiBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraffitiBoardTests.swift; sourceTree = "<group>"; };
 		1C78D4921F0CC243008293C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C78D49B1F0CC272008293C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		1C78D49D1F0CC51D008293C0 /* FBInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBInterface.swift; sourceTree = "<group>"; };
-		1C78D49F1F0CE0DD008293C0 /* GBMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBMainViewController.swift; sourceTree = "<group>"; };
+		1C78D4AA1F0E2B6B008293C0 /* FBInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBInterface.swift; sourceTree = "<group>"; };
+		1C78D4AB1F0E2B6B008293C0 /* GBNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBNavigation.swift; sourceTree = "<group>"; };
+		1C78D4AC1F0E2B6B008293C0 /* GBUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBUtils.swift; sourceTree = "<group>"; };
+		1C78D4AE1F0E2B6B008293C0 /* GBLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBLoginViewController.swift; sourceTree = "<group>"; };
+		1C78D4AF1F0E2B6B008293C0 /* GBMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBMainViewController.swift; sourceTree = "<group>"; };
+		1C78D4B01F0E2B6B008293C0 /* GBSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBSettingViewController.swift; sourceTree = "<group>"; };
+		1C78D4B71F0E2BF6008293C0 /* GBProfileInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProfileInfo.swift; sourceTree = "<group>"; };
+		1CD2D2AC1F0F3F4800A8760E /* GBDrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBDrawingViewController.swift; sourceTree = "<group>"; };
+		1CD2D2AE1F0F54F400A8760E /* GBTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBTestViewController.swift; sourceTree = "<group>"; };
+		1CEB53D41F1CB0E5003F9CE5 /* GBPaletteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBPaletteView.swift; sourceTree = "<group>"; };
+		1CEB53D61F1CB107003F9CE5 /* GBPaletteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBPaletteView.xib; sourceTree = "<group>"; };
+		1CEB53D81F1DC385003F9CE5 /* GBPaletteColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBPaletteColorCell.swift; sourceTree = "<group>"; };
+		1CEB53D91F1DC385003F9CE5 /* GBPaletteColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBPaletteColorCell.xib; sourceTree = "<group>"; };
+		1CEB53DC1F1DE67C003F9CE5 /* GBPaletteThicknessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBPaletteThicknessCell.swift; sourceTree = "<group>"; };
+		1CEB53DD1F1DE67C003F9CE5 /* GBPaletteThicknessCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBPaletteThicknessCell.xib; sourceTree = "<group>"; };
+		1CEB53E01F1E09C6003F9CE5 /* GBPaletteThickFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBPaletteThickFlowLayout.swift; sourceTree = "<group>"; };
 		2141502B7C1AB5967F4F2F6A /* Pods-GraffitiBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraffitiBoard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraffitiBoard/Pods-GraffitiBoard.debug.xcconfig"; sourceTree = "<group>"; };
 		647809D23BF89856F0B3D433 /* Pods_GraffitiBoardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraffitiBoardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9917A323A3A7BD4CDEF6A874 /* Pods-GraffitiBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraffitiBoard.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraffitiBoard/Pods-GraffitiBoard.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,16 +123,16 @@
 		1C78D4771F0CC243008293C0 /* GraffitiBoard */ = {
 			isa = PBXGroup;
 			children = (
+				1CEB53D31F1CB0D1003F9CE5 /* CustomView */,
+				1C78D4A91F0E2B6B008293C0 /* Logic */,
+				1C78D4AD1F0E2B6B008293C0 /* ViewController */,
 				1C78D4781F0CC243008293C0 /* AppDelegate.swift */,
-				1C78D47A1F0CC243008293C0 /* CBLoginViewController.swift */,
-				1C78D49F1F0CE0DD008293C0 /* GBMainViewController.swift */,
 				1C78D47C1F0CC243008293C0 /* Main.storyboard */,
 				1C78D4821F0CC243008293C0 /* Assets.xcassets */,
 				1C78D4841F0CC243008293C0 /* LaunchScreen.storyboard */,
 				1C78D4871F0CC243008293C0 /* Info.plist */,
 				1C78D47F1F0CC243008293C0 /* GraffitiBoard.xcdatamodeld */,
 				1C78D49B1F0CC272008293C0 /* GoogleService-Info.plist */,
-				1C78D49D1F0CC51D008293C0 /* FBInterface.swift */,
 			);
 			path = GraffitiBoard;
 			sourceTree = "<group>";
@@ -118,6 +144,43 @@
 				1C78D4921F0CC243008293C0 /* Info.plist */,
 			);
 			path = GraffitiBoardTests;
+			sourceTree = "<group>";
+		};
+		1C78D4A91F0E2B6B008293C0 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1C78D4B71F0E2BF6008293C0 /* GBProfileInfo.swift */,
+				1C78D4AA1F0E2B6B008293C0 /* FBInterface.swift */,
+				1C78D4AB1F0E2B6B008293C0 /* GBNavigation.swift */,
+				1C78D4AC1F0E2B6B008293C0 /* GBUtils.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		1C78D4AD1F0E2B6B008293C0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C78D4AE1F0E2B6B008293C0 /* GBLoginViewController.swift */,
+				1C78D4AF1F0E2B6B008293C0 /* GBMainViewController.swift */,
+				1C78D4B01F0E2B6B008293C0 /* GBSettingViewController.swift */,
+				1CD2D2AC1F0F3F4800A8760E /* GBDrawingViewController.swift */,
+				1CD2D2AE1F0F54F400A8760E /* GBTestViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1CEB53D31F1CB0D1003F9CE5 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				1CEB53D41F1CB0E5003F9CE5 /* GBPaletteView.swift */,
+				1CEB53D61F1CB107003F9CE5 /* GBPaletteView.xib */,
+				1CEB53D81F1DC385003F9CE5 /* GBPaletteColorCell.swift */,
+				1CEB53D91F1DC385003F9CE5 /* GBPaletteColorCell.xib */,
+				1CEB53DC1F1DE67C003F9CE5 /* GBPaletteThicknessCell.swift */,
+				1CEB53DD1F1DE67C003F9CE5 /* GBPaletteThicknessCell.xib */,
+				1CEB53E01F1E09C6003F9CE5 /* GBPaletteThickFlowLayout.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		7E4426ECE32729348595C1F1 /* Pods */ = {
@@ -232,6 +295,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C78D4861F0CC243008293C0 /* LaunchScreen.storyboard in Resources */,
+				1CEB53D71F1CB107003F9CE5 /* GBPaletteView.xib in Resources */,
+				1CEB53DF1F1DE67C003F9CE5 /* GBPaletteThicknessCell.xib in Resources */,
+				1CEB53DB1F1DC385003F9CE5 /* GBPaletteColorCell.xib in Resources */,
 				1C78D49C1F0CC272008293C0 /* GoogleService-Info.plist in Resources */,
 				1C78D4831F0CC243008293C0 /* Assets.xcassets in Resources */,
 				1C78D47E1F0CC243008293C0 /* Main.storyboard in Resources */,
@@ -345,10 +411,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C78D47B1F0CC243008293C0 /* CBLoginViewController.swift in Sources */,
-				1C78D49E1F0CC51D008293C0 /* FBInterface.swift in Sources */,
+				1C78D4B61F0E2B6B008293C0 /* GBSettingViewController.swift in Sources */,
+				1C78D4B11F0E2B6B008293C0 /* FBInterface.swift in Sources */,
+				1CEB53E11F1E09C6003F9CE5 /* GBPaletteThickFlowLayout.swift in Sources */,
+				1C78D4B51F0E2B6B008293C0 /* GBMainViewController.swift in Sources */,
+				1C78D4B21F0E2B6B008293C0 /* GBNavigation.swift in Sources */,
+				1C78D4B31F0E2B6B008293C0 /* GBUtils.swift in Sources */,
+				1C78D4B81F0E2BF6008293C0 /* GBProfileInfo.swift in Sources */,
+				1CEB53D51F1CB0E5003F9CE5 /* GBPaletteView.swift in Sources */,
+				1CD2D2AD1F0F3F4800A8760E /* GBDrawingViewController.swift in Sources */,
+				1CEB53DA1F1DC385003F9CE5 /* GBPaletteColorCell.swift in Sources */,
+				1CD2D2AF1F0F54F400A8760E /* GBTestViewController.swift in Sources */,
 				1C78D4791F0CC243008293C0 /* AppDelegate.swift in Sources */,
-				1C78D4A01F0CE0DD008293C0 /* GBMainViewController.swift in Sources */,
+				1CEB53DE1F1DE67C003F9CE5 /* GBPaletteThicknessCell.swift in Sources */,
+				1C78D4B41F0E2B6B008293C0 /* GBLoginViewController.swift in Sources */,
 				1C78D4811F0CC243008293C0 /* GraffitiBoard.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

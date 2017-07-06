@@ -21,6 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FBInterface.initialize()
         
+        UIApplication.shared.statusBarStyle = .lightContent
+        
+        
         return true
     }
     

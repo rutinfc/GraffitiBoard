@@ -9,9 +9,8 @@
 import UIKit
 import GoogleSignIn
 
-class CBLoginViewController: UIViewController, GIDSignInUIDelegate {
+class GBLoginViewController: UIViewController, GIDSignInUIDelegate {
     
-    @IBOutlet var result : UILabel!
     @IBOutlet var signInButton : GIDSignInButton!
 
     override func viewDidLoad() {
@@ -34,10 +33,6 @@ class CBLoginViewController: UIViewController, GIDSignInUIDelegate {
     }
 
     func changeAuthStatus(notification:Notification) {
-        guard let message = notification.object as? String else {
-            return
-        }
-        self.result.text = message
         
         self.dismiss(animated: true, completion: nil)
     }
